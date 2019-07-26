@@ -143,3 +143,12 @@ a {
     font-size: 14px;
     line-height: 20px;
 }
+
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 48px;
+        line-height: 54px;
+    }
+
+}
