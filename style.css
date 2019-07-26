@@ -1,88 +1,68 @@
-﻿@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
-body, html {
-	position: relative;
-	height: 100%; 
-	width : 100%;  
-	margin: 0;
-  	background-color: #1F9355;
-  	cursor: url("cursor.png") 0 0, pointer; /* Legacy */
-    cursor: url("cursor.svg") 0 0, pointer; /* FF */
-    cursor: -webkit-image-set(url("cursor.png") 1x, url("cursor@2x.png") 2x) 0 0, pointer; /* Webkit */
+﻿body {
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0 24px;
 }
 
-.circle {
-    z-index: 2;
-    position: absolute;
-    border: solid 1px #D65E2A;
-    mix-blend-mode: difference;
-    width: 72px;
-    height: 72px;
-    border-radius: 50%;
-    /*transform: translateX(-8px);
-    transform: translateY(-2px);*/
-}
-
-.container {
-	height: 100vh;
-	margin-left: 50px;
-	margin-right: 50px;
-	align-self: center;
-	justify-content: center;
-	position: relative;
+header {
     display: flex;
-	max-width: 550px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.photo-1 img {
-    z-index: 1;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	mix-blend-mode: screen;
-	width: 450px;
-    transition: all 0.5s ease
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 32px;
 }
 
 h1 {
-    z-index: 3;
+    color: #FA5959;
+    font-size: 68px;
+    line-height: 82px;
+    letter-spacing: -2px;
+}
+
+.container-projects {
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 16px;
+    background-color: #fafafa;
+}
+
+.title {
+    padding-top: 80px;
+    grid-column-start: 4;
+    grid-column-end: 12;
+}
+
+.project-1 {
+    margin-top:64px;
+    grid-column-start: 4;
+    grid-column-end: 12;
+}
+
+.project-image-1 {
+    height: 580px;
+    background-color: #ccc;
+    margin-bottom: 16px;
+}
+
+.project-info {
+    grid-column-start: 4;
+    grid-column-end: 12;
+    display: flex;
     width: 100%;
-    color: rgba(0,0,0,0);
-    font-size: 130px;
-    line-height: 10px;
-    position: absolute;
-    top: 35%;
-    text-align: center;
-    /*mix-blend-mode: difference;*/
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: yellow;
-    transition: all 0.3s ease;
 }
 
-    h1:hover {
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: blue;
-    transform: rotate(-3deg);
-    transform: skewY(-5deg);
+.project-number {
+    width: 10%;
 }
 
+.project-title {
+    width: 80%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.project-year {
+    width: 10%;
+    text-align: right;
+}
