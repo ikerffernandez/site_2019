@@ -1,4 +1,7 @@
-﻿body {
+﻿
+
+
+body {
     top: 0;
     left: 0;
     margin: 0;
@@ -67,7 +70,12 @@ h3 {
     color: #F94A4A;
     margin: 0 0 8px 0;
     padding-top: 172px;
+}
 
+h4 {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 50px;
 }
 
 blockquote {
@@ -84,6 +92,7 @@ blockquote {
 a {
     color: #252525;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .header-left {
@@ -125,7 +134,7 @@ a {
     text-align: right;
 }
 
-.container-projects {
+.container {
     padding: 0 24px;
     max-width: 1200px;
     margin-left: auto;
@@ -133,8 +142,8 @@ a {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 16px;
-    /*background-color: #fafafa;*/
 }
+
 
 .title {
     padding-top: 120px;
@@ -220,15 +229,6 @@ a {
 }
 
 .experience {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 24px;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-gap: 16px;
     padding-top: 172px;
 }
 
@@ -237,11 +237,58 @@ a {
     grid-column-start: 1;
     grid-column-end: 8;  
     transition: all 0.2s ease;
+    width: fit-content;
 }
 
 .company:hover {
     color: #F94A4A;
 }
+
+
+/* About me */
+
+.about-me {
+    padding-top: 172px;
+}
+
+.about-me-photo img {
+    width: 100%;
+}
+
+.about-me-photo {
+    grid-row: 1;
+    grid-column-start: 2;
+    grid-column-end: 8;
+}
+
+.about-me-text {
+    padding-top: 80px;
+    grid-row: 1;
+    grid-column-start: 7;
+    grid-column-end: 12;
+}
+
+.learn-more {
+    grid-row: 1;
+    grid-column-start: 7;
+    grid-column-end: 12;
+    padding-top: 0px;
+}
+
+.button {
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: rgba(0,0,0,0);
+    padding: 12px 20px;
+    width: fit-content;
+    border: 1px solid #252525;
+}
+
+.button a {
+    color: #252525;
+}
+
 
 
 /* People */
@@ -301,6 +348,51 @@ a {
     grid-column-start: 1;
     grid-column-end: 1;
     width: 100%;
+}
+
+
+/* Contact section */
+
+.contact-info {
+    grid-column-start: 3;
+    grid-column-end: 12;
+    padding-top: 208px;
+    display: inline-grid;
+}
+
+.contact-info a {
+    color: #252525;
+    font-weight:600;
+    font-size: 68px;
+    line-height: 82px;
+    letter-spacing: -2px;
+    padding-bottom: 8px;
+    transition: all 0.2s ease;
+    text-transform: lowercase;
+    width: fit-content;
+}
+
+.contact-info a:hover {
+    color: #F94A4A;
+}
+
+.contact-info h2 {
+    padding-bottom: 24px;
+} 
+
+
+
+/* This is the menu */
+
+.fullscreen-menu {
+    overflow: hidden;
+    position: absolute;
+    background-color: #8DAA91;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    top: 0;
+    left: 0;
 }
 
 
