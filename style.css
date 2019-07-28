@@ -2,7 +2,7 @@
     top: 0;
     left: 0;
     margin: 0;
-    padding: 0 24px 88px 0;
+    padding-bottom: 88px;
     font-family: Helvetica, Arial, Sans-Serif;
     font-size: 100%;
     color: #252525;
@@ -12,11 +12,9 @@
 
 ::selection {
   background: #fafafa;
-  color: #F94A4A; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
   background: #fafafa;
-  color: #F94A4A; /* Gecko Browsers */
 }
 
 header {
@@ -39,7 +37,7 @@ footer {
     padding-top: 256px;
     font-size: 14px;
     line-height: 20px;
-    font-weight: 100;
+    font-weight: 300;
     font-family: 'Roboto Mono', monospace;
 
 }
@@ -59,6 +57,28 @@ h2 {
     margin-top: 0;
     margin-bottom: 0;
     letter-spacing: -3.5px;
+}
+
+h3 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #F94A4A;
+    margin: 0 0 8px 0;
+    padding-top: 172px;
+
+}
+
+blockquote {
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    font-weight: 100;
+    padding-top: 80px;
+    padding-right: 24px;
+    padding-bottom: 132px;
 }
 
 a {
@@ -106,7 +126,7 @@ a {
 }
 
 .container-projects {
-    padding-left: 24px;
+    padding: 0 24px;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -169,8 +189,6 @@ a {
 /*number / title / year of the project*/
 
 .project-info {
-    grid-column-start: 4;
-    grid-column-end: 12;
     display: flex;
     width: 100%;
     align-items: baseline;
@@ -202,8 +220,10 @@ a {
 }
 
 .experience {
-    padding-left: 40px;
-    padding-right: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 24px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     display: grid;
@@ -222,6 +242,67 @@ a {
 .company:hover {
     color: #F94A4A;
 }
+
+
+/* People */
+
+.people {
+    background-color: #11174C;
+}
+
+.people-container {
+    margin-top: 200px;
+    padding: 0 24px 232px 0;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 16px;
+}
+
+.testimonial {
+    border-left: 1px rgba(255,255,255,0.06) solid;
+    height: auto;
+    padding-left: 24px;
+    height: 585px;
+}
+
+.testimonial p {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    margin: 0;
+}
+
+
+.testimonial-1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.testimonial-2 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+
+
+.testimonial-3 {
+    grid-column-start: 7;
+    grid-column-end: 10;
+}
+
+.slider-arrows {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    width: 100%;
+}
+
 
 @media (max-width: 600px) {
 
