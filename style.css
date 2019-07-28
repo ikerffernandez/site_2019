@@ -7,7 +7,7 @@ body {
     top: 0;
     left: 0;
     margin: 0;
-    padding-bottom: 88px;
+    padding-bottom: 72px;
     font-family: Helvetica, Arial, Sans-Serif;
     font-size: 100%;
     color: #252525;
@@ -16,33 +16,33 @@ body {
 
 
 ::selection {
-  background: #a2a2a2;
+  background: rgba(0,0,0,0.05);
 }
 ::-moz-selection {
-  background: #a2a2a2;
+  background: rgba(0,0,0,0.05);
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 0;
+    padding: 40px 0 0 0;
     position: fixed;
     width: 100%;
 }
 
 footer {
-    padding-left: 40px;
-    padding-right: 24px;
+    padding: 0 24px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 16px;
-    padding-top: 256px;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 300;
+    padding-top: 216px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
     font-family: 'Roboto Mono', monospace;
 
 }
@@ -53,6 +53,7 @@ h1 {
     font-size: 68px;
     line-height: 82px;
     letter-spacing: -2px;
+    font-weight: 600;
 }
 
 h2 {
@@ -78,6 +79,7 @@ h4 {
     font-weight: 600;
     font-size: 42px;
     line-height: 50px;
+    font-weight: 500;
 }
 
 blockquote {
@@ -101,9 +103,10 @@ a {
     font-size: 16px;
     font-weight: 600;
     padding-left: 40px;
+    color: #252525;
 }
 
-.section-name {
+/*.section-name {
     position: fixed;
     font-family: 'Roboto Mono', monospace;
     font-size: 12px;
@@ -112,8 +115,10 @@ a {
     bottom: 0;
     color: #a2a2a2;
     mix-blend-mode: difference;
-    padding-bottom: 40px;
-}
+    top: 50%;
+    transform: translateY(-40px);
+}*/
+
 
 .header-right {
     padding-right: 40px;
@@ -126,7 +131,7 @@ a {
 }
 
 .footer-center {
-    grid-column-start: 8;
+    grid-column-start: 6;
     grid-column-end: 11;
 }
 
@@ -167,6 +172,10 @@ a {
     margin-top: 64px;
     grid-column-start: 3;
     grid-column-end: 13;
+}
+
+.roject-1-info {
+    position: relative;
 }
 
 .project-2 {
@@ -309,7 +318,6 @@ a {
     border-left: 1px rgba(255,255,255,0.06) solid;
     height: auto;
     padding-left: 24px;
-    height: 585px;
 }
 
 .testimonial p {
@@ -350,11 +358,29 @@ a {
 
 /* Contact section */
 
+.contact {
+    padding-top: 240px;
+}
+
 .contact-info {
-    grid-column-start: 3;
-    grid-column-end: 12;
-    padding-top: 208px;
-    display: inline-grid;
+    grid-column-start: 6;
+    grid-column-end: 13;
+}
+
+.contact-text {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #a2a2a2;
+}
+
+
+.contact-links-1,
+.contact-links-2 {
+    display: flex;
 }
 
 .contact-info a {
@@ -367,6 +393,19 @@ a {
     transition: all 0.2s ease;
     text-transform: lowercase;
     width: fit-content;
+}
+
+.contact-info p {
+    color: #252525;
+    font-weight:600;
+    font-size: 68px;
+    line-height: 82px;
+    letter-spacing: -2px;
+    padding-bottom: 8px;
+    transition: all 0.2s ease;
+    text-transform: lowercase;
+    width: fit-content;
+    margin: 0 16px;
 }
 
 .contact-info a:hover {
@@ -384,7 +423,7 @@ a {
 .fullscreen-menu {
     visibility: hidden;
     position: fixed;
-    background-color: #a2a2a2;
+    background-color: #DBCF96;
     width: 100%;
     height: 100vh;
     z-index: 2;
@@ -408,8 +447,23 @@ a {
     color: #ffffff;
 }
 
+@media (max-width: 1150px) {
 
-@media (max-width: 950px) {
+
+    .contact-text {
+        grid-column-start: 1;
+        grid-column-end: 5;  
+        margin-right: 24px;
+    }
+
+    .contact-info {
+        grid-column-start: 5;
+        grid-column-end: 13;        
+    }
+}
+
+
+@media (max-width: 1000px) {
 
     .about-me-text {
         padding-top: 100px;
@@ -427,9 +481,10 @@ a {
     .about-me-text h4 {
         font-size: 36px;
         line-height: 42px;
+
     } 
 
-        .testimonial-3 {
+    .testimonial-3 {
         grid-column-start: 9;
         grid-column-end: 13;
     }
@@ -442,6 +497,29 @@ a {
     .testimonial-1 {
         grid-column-start: 1;
         grid-column-end: 5;
+    }
+
+    .contact {
+        padding-top: 132px;
+    }
+
+    .contact-text {
+        grid-column-start: 1;
+        grid-column-end: 8;
+        padding-bottom: 32px;
+}
+
+    .contact-info {
+        grid-column-start: 1;
+        grid-column-end: 6;        
+    }
+
+    footer {
+        padding-top: 132px;
+    }
+
+    blockquote {
+        padding-bottom: 48px;
     }
 
 }    
