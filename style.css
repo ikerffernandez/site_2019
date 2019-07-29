@@ -591,8 +591,37 @@ a {
 
 }    
 
+@media (max-width: 740px) {
+
+	h3 {
+		padding-top: 96px;
+	}
+
+	.slider-arrows {
+	    padding-top: 16px;
+}
+
+	.people-container {
+		padding-bottom: 96px;
+	}
+
+	.testimonial-1 {
+	    grid-column-start: 1;
+	    grid-column-end: 10;
+}
+
+	.testimonial-2,
+	.testimonial-3 {
+		display: none;
+	}
+
+}
+
 @media (max-width: 600px) {
 
+	body {
+		padding-bottom: 32px;
+	}
 
     h1 {
         font-size: 48px;
@@ -612,6 +641,48 @@ a {
     .company {
         grid-column-start: 1;
         grid-column-end: 13;  
+	}
+
+	.about-me-text h4 {
+	    font-size: 24px;
+	    line-height: 30px;
+	}
+
+	.about-me-photo {
+	    grid-column-start: 1;
+	    grid-column-end: 9;
+	}
+
+	.project-1 {
+	    margin-top: 48px;
+	    grid-column-start: 3;
+	    grid-column-end: 13;
 }
+
+	.project-2,
+    .project-3,
+    .project-4,
+    .project-5 {
+        margin-top: 96px;
+    }
+
+    .project-5 {
+	    grid-column-start: 3;
+	    grid-column-end: 13;
+	}
+
+    .about-me {
+    	padding-top: 102px;
+	}
+
+	.about-me-text {
+		grid-column-start: 5;
+    	grid-column-end: 13;
+	}
+
+	.people-container {
+		margin-top: 132px;
+	}
+
 
 }
