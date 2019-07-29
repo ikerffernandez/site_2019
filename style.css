@@ -82,6 +82,22 @@ h4 {
     font-weight: 500;
 }
 
+h5 {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 600;
+	margin: 0;
+}
+
+h6 {
+	color: #a2a2a2;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 100;
+	font-family:  'Roboto Mono', monospace;
+	margin: 0;
+}
+
 blockquote {
     color: white;
     font-size: 14px;
@@ -249,10 +265,22 @@ a {
     padding-top: 172px;
 }
 
+.year-position {
+	grid-column-end: 12;
+    grid-column-start: 8;
+}
+
+.experience-description {
+	padding-top: 24px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+
 .company {
     margin-bottom: 16px;
     grid-column-start: 1;
-    grid-column-end: 8;  
+    grid-column-end: 7;  
     transition: all 0.2s ease;
     width: fit-content;
 }
@@ -266,6 +294,14 @@ a {
 
 .about-me {
     padding-top: 172px;
+}
+
+.about-me p {
+	font-size: 12px;
+	color: #a2a2a2;
+	margin: 0;
+	font-family: 'Roboto Mono', monospace;
+
 }
 
 .about-me-photo img {
@@ -474,6 +510,15 @@ a {
 
 @media (max-width: 1000px) {
 
+	.experience {
+		display: block;
+	}
+
+	.experience-description {
+		max-width: 324px;
+		margin-bottom: 80px;
+	}
+
     .about-me-text {
         padding-top: 100px;
         grid-row: 1;
@@ -602,9 +647,9 @@ a {
 
 @media (max-width: 740px) {
 
-		.company {
-    	margin-bottom: -8px;
-	}
+    .year-position {
+    	margin-top: 32px;
+    }
 
 	h3 {
 		padding-top: 96px;
