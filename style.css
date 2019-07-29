@@ -91,7 +91,7 @@ h5 {
 
 h6 {
 	color: #a2a2a2;
-	font-size: 12px;
+	font-size: 11px;
 	line-height: 18px;
 	font-weight: 100;
 	font-family:  'Roboto Mono', monospace;
@@ -297,7 +297,7 @@ a {
 }
 
 .about-me p {
-	font-size: 12px;
+	font-size: 11px;
 	color: #a2a2a2;
 	margin: 0;
 	font-family: 'Roboto Mono', monospace;
@@ -580,6 +580,14 @@ a {
         padding: 24px 0;
     }
 
+    .experience-description-5 {
+	    margin-bottom: 0px;
+	}
+
+	.experience {
+		padding-top: 102px;
+	}
+
     .header-left {
         padding-left: 24px;
     }
@@ -603,6 +611,10 @@ a {
     .project-5,
     .project-6 {
         margin-top: 164px;
+    }
+
+    .project-6 {
+	    grid-column-start: 2;
     }
 
     .experience h2 {
@@ -723,6 +735,10 @@ a {
     .project-5,
     .project-6 {
         margin-top: 96px;
+    }
+
+    .project-6 {
+	    grid-column-start: 1;
     }
 
     .project-5 {
