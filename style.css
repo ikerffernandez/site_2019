@@ -276,6 +276,14 @@ a {
 	line-height: 20px;
 }
 
+.experience-5-year-position,
+.experience-4-year-position,
+.experience-3-year-position,
+.experience-2-year-position,
+.experience-1-year-position {
+	visibility: hidden;
+}
+
 
 .company {
     margin-bottom: 16px;
@@ -355,7 +363,7 @@ a {
 }
 
 .people-container {
-    margin-top: 200px;
+    margin-top: 232px;
     padding-bottom: 154px;
 }
 
@@ -515,6 +523,14 @@ a {
 		margin-left: 102px;
 	}
 
+	.experience-5-year-position,
+	.experience-4-year-position,
+	.experience-3-year-position,
+	.experience-2-year-position,
+	.experience-1-year-position {
+	visibility: visible;
+}
+
 	.experience-description {
 		max-width: 324px;
 		margin-bottom: 80px;
@@ -571,6 +587,10 @@ a {
 
     blockquote {
         padding-bottom: 48px;
+    }
+
+    .people-container {
+    	margin-top: 196px;
     }
 
 }    
