@@ -512,6 +512,7 @@ a {
 
 	.experience {
 		display: block;
+		margin-left: 102px;
 	}
 
 	.experience-description {
@@ -767,6 +768,10 @@ a {
 
 	.people-container {
 		margin-top: 132px;
+	}
+
+	.experience {
+				margin-left: 0px;
 	}
 
 }
