@@ -593,6 +593,10 @@ a {
 
 @media (max-width: 740px) {
 
+		.company {
+    	margin-bottom: -8px;
+	}
+
 	h3 {
 		padding-top: 96px;
 	}
@@ -683,10 +687,5 @@ a {
 	.people-container {
 		margin-top: 132px;
 	}
-
-	.company {
-    	margin-bottom: -8px;
-}
-
 
 }
