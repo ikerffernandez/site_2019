@@ -306,7 +306,8 @@ a {
 /* People */
 
 .people {
-    background-color: #0E123F;
+    /* background-color: #0E123F; */
+    background-color: #252525;
 }
 
 .people-container {
