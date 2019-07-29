@@ -202,6 +202,12 @@ a {
     grid-column-end: 10;
 }
 
+.project-6 {
+    margin-top: 200px;
+    grid-column-start: 3;
+    grid-column-end: 12;
+}
+
 
 
 
@@ -275,6 +281,7 @@ a {
 
 .about-me-text {
     padding-top: 80px;
+    color: #F94A4A;
     grid-row: 1;
     grid-column-start: 7;
     grid-column-end: 12;
@@ -285,6 +292,7 @@ a {
     grid-column-start: 7;
     grid-column-end: 12;
     padding-top: 0px;
+    margin-left: 80px;
 }
 
 .button {
@@ -547,7 +555,8 @@ a {
     .project-2,
     .project-3,
     .project-4,
-    .project-5 {
+    .project-5,
+    .project-6 {
         margin-top: 164px;
     }
 
@@ -666,7 +675,8 @@ a {
 	.project-2,
     .project-3,
     .project-4,
-    .project-5 {
+    .project-5,
+    .project-6 {
         margin-top: 96px;
     }
 
@@ -676,12 +686,22 @@ a {
 	}
 
     .about-me {
+    	display: block;
     	padding-top: 102px;
 	}
 
+	.about-me-photo {
+		margin-left: 32px;
+		width: 65%;
+	}
+
 	.about-me-text {
-		grid-column-start: 5;
-    	grid-column-end: 13;
+		margin-left: 80px;
+		width: 70%;
+	}
+
+	.learn-more {
+		margin-left: 0;
 	}
 
 	.people-container {
