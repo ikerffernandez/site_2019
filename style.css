@@ -312,6 +312,16 @@ a {
 
 }
 
+.about-me a {
+    color: #F94A4A;
+    transition: all 0.2s ease;
+}
+
+.about-me a:hover {
+    color: #252525;
+}
+
+
 .about-me-photo img {
     width: 100%;
 }
