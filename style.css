@@ -214,14 +214,20 @@ a {
 
 .project-5 {
     margin-top: 200px;
-    grid-column-start: 4;
-    grid-column-end: 10;
+    grid-column-start: 3;
+    grid-column-end: 11;
 }
 
 .project-6 {
     margin-top: 200px;
-    grid-column-start: 3;
-    grid-column-end: 12;
+    grid-column-start: 5;
+    grid-column-end: 13;
+}
+
+.project-7 {
+    margin-top: 200px;
+    grid-column-start: 1;
+    grid-column-end: 11;
 }
 
 
@@ -656,16 +662,17 @@ a {
         grid-column-start: 1;
         grid-column-end: 13;
     }
-    
+
     .project-2,
     .project-3,
     .project-4,
     .project-5,
-    .project-6 {
+    .project-6,
+    .project-7 {
         margin-top: 164px;
     }
 
-    .project-6 {
+    .project-7 {
 	    grid-column-start: 2;
     }
 
@@ -781,15 +788,16 @@ a {
 	    grid-column-end: 13;
 }
 
-	.project-2,
+    .project-2,
     .project-3,
     .project-4,
     .project-5,
-    .project-6 {
+    .project-6,
+    .project-7 {
         margin-top: 96px;
     }
 
-    .project-6 {
+    .project-7 {
 	    grid-column-start: 1;
     }
 
