@@ -797,6 +797,10 @@ a {
         margin-top: 96px;
     }
 
+    .project-6 {
+        grid-column-start: 3;
+    }
+
     .project-7 {
 	    grid-column-start: 1;
     }
