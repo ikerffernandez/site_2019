@@ -798,7 +798,8 @@ a {
     }
 
     .project-6 {
-        grid-column-start: 4;
+        grid-column-start: 2;
+        grid-column-end: 10;
     }
 
     .project-7 {
