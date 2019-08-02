@@ -812,6 +812,10 @@ a {
 	    grid-column-end: 13;
 	}
 
+    .project-3 {
+        grid-column-start: 3;
+    }
+
     .about-me {
     	display: block;
     	padding-top: 102px;
