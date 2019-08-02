@@ -14,10 +14,10 @@ body {
     text-transform: none;
 }
 
-
-::selection {
-  background: rgba(0,0,0,0.05);
+.change-visibility {
+    visibility: hidden;
 }
+
 ::-moz-selection {
   background: rgba(0,0,0,0.05);
 }
@@ -490,7 +490,7 @@ a {
 /* This is the menu */
 
 .fullscreen-menu {
-	visibility: hidden;
+    visibility: hidden;
     position: fixed;
     background-color: #ffffff;
     width: 100%;
@@ -498,6 +498,9 @@ a {
     z-index: 2;
     top: 0;
     left: 0;
+    overflow: hidden;
+    cursor: url('img/cursor/close.png'), auto;
+    cursor: -webkit-image-set( url('img/curso/close.png') 1x, url('img/cursor/close@2x.png') 2x ), auto;
 }
 
 .menu-item {
@@ -516,14 +519,18 @@ a {
     color: #F94A4A;
 }
 
+.contact-details {
+    margin-top: 32px;
+}
+
 .contact-details,
 .contact-socialmedia {
 	grid-column-start: 1;
 	grid-column-end: 13;
     font-family: 'Roboto Mono', monospace;
-    font-size: 14px;
-    line-height: 18px;
-    font-weight: 100;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
 }
 
 .contact-details p,
@@ -531,10 +538,16 @@ a {
 	margin: 4px 0;
 	color: #a2a2a2;
 	display: block;
+    transition: 0.3s all ease;
+}
+
+.contact-socialmedia a:hover {
+    color: #F94A4A;
 }
 
 .menu-content {
-	margin-top: 80px;
+    margin-top: 50vh;
+    transform: translateY(-50%);
 }
 
 @media (max-width: 1150px) {
@@ -717,6 +730,13 @@ a {
 }    
 
 @media (max-width: 740px) {
+
+
+    .menu-item {
+        font-size: 68px;
+        line-height: 82px;
+        margin-bottom: -24px;
+    }
 
     .year-position {
     	margin-top: 32px;
