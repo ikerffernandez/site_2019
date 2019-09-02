@@ -1,6 +1,5 @@
 ﻿html {
     scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
 }
 
 
@@ -541,7 +540,6 @@ a {
 
 .about-me-content {
     overflow: scroll;
-    -webkit-overflow-scrolling: touch;
     height: 100%;
 }
 
