@@ -137,8 +137,13 @@ a {
     padding-right: 40px;
 }
 
-.header-right-alt img {
-    transform: rotate(45deg):
+.cross {
+    transform: rotate(45deg);
+    transition: transform 0.5s ease;
+}
+
+.cross-alt {
+    transform: rotate(180deg);
 }
 
 .footer-left {

@@ -60,9 +60,6 @@ $('.liricigreci').on('mouseout', function () {
 //Fullscreen Menu
 
 $('.header-right').on('click', function () {
-    $('.fullscreen-menu').addClass('visible-menu')
-});
-
-$('.fullscreen-menu').on('click', function () {
-    $('.fullscreen-menu').removeClass('visible-menu')
+    $('.fullscreen-menu').toggleClass('visible-menu')
+    $('.cross').toggleClass('cross-alt')
 });
