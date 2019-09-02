@@ -64,6 +64,11 @@ $('.header-right').on('click', function () {
     $('.cross').toggleClass('cross-alt')
 });
 
+$('.learn-more').on('click', function () {
+    $('.fullscreen-menu').addClass('visible-menu')
+    $('.cross').toggleClass('cross-alt')
+});
+
 $('.fullscreen-menu').on('click', function () {
     $('.fullscreen-menu').toggleClass('visible-menu')
     $('.cross').toggleClass('cross-alt')
