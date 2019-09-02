@@ -63,16 +63,19 @@ $('.header-right').on('click', function () {
     $('.fullscreen-about').toggleClass('visible-about')
     $('.cross').toggleClass('cross-alt')
     $('.header-left').toggleClass('opacity_0')
+    $('.about-me-content').toggleClass('about-me-content-scroll')
 });
 
 $('.learn-more').on('click', function () {
     $('.fullscreen-about').addClass('visible-about')
     $('.cross').toggleClass('cross-alt')
     $('.header-left').toggleClass('opacity_0')
+    $('.about-me-content').toggleClass('about-me-content-scroll')
 });
 
 $('.fullscreen-about').on('click', function () {
     $('.fullscreen-about').toggleClass('visible-about')
     $('.cross').toggleClass('cross-alt')
     $('.header-left').toggleClass('opacity_0')
+    $('.about-me-content').toggleClass('about-me-content-scroll')
 });
