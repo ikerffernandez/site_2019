@@ -4,7 +4,7 @@
 
 
 body {
-    -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: auto;
     top: 0;
     left: 0;
     margin: 0;
