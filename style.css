@@ -524,7 +524,6 @@ a {
 /* This is the aboutme */
 
 .fullscreen-about {
-    display: none;
     opacity: 0;
     position: fixed;
     background-color: #ffffff;
@@ -547,7 +546,6 @@ a {
 }
 
 .visible-about {
-    display: block;
     opacity: 1;
     z-index: 50;
 }
