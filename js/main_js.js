@@ -57,19 +57,22 @@ $('.liricigreci').on('mouseout', function () {
 
 
 
-//Fullscreen Menu
+//Fullscreen About
 
 $('.header-right').on('click', function () {
-    $('.fullscreen-menu').toggleClass('visible-menu')
+    $('.fullscreen-about').toggleClass('visible-about')
     $('.cross').toggleClass('cross-alt')
+    $('.header-left').toggleClass('opacity_0')
 });
 
 $('.learn-more').on('click', function () {
-    $('.fullscreen-menu').addClass('visible-menu')
+    $('.fullscreen-about').addClass('visible-about')
     $('.cross').toggleClass('cross-alt')
+    $('.header-left').toggleClass('opacity_0')
 });
 
-$('.fullscreen-menu').on('click', function () {
-    $('.fullscreen-menu').toggleClass('visible-menu')
+$('.fullscreen-about').on('click', function () {
+    $('.fullscreen-about').toggleClass('visible-about')
     $('.cross').toggleClass('cross-alt')
+    $('.header-left').toggleClass('opacity_0')
 });
