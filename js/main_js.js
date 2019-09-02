@@ -54,3 +54,15 @@ $('.liricigreci').on('mouseover', function () {
 $('.liricigreci').on('mouseout', function () {
     $('.experience-5-year-position').removeClass('make-visible')
 });
+
+
+
+//Fullscreen Menu
+
+$('.header-right').on('click', function () {
+    $('.fullscreen-menu').addClass('visible-menu')
+});
+
+$('.fullscreen-menu').on('click', function () {
+    $('.fullscreen-menu').removeClass('visible-menu')
+});
