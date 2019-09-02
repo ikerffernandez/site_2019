@@ -540,6 +540,7 @@ a {
 
 .about-me-content {
     overflow: scroll;
+    -webkit-overflow-scrolling: touch;
     height: 100%;
 }
 
