@@ -698,11 +698,19 @@ a {
     -webkit-overflow-scrolling: touch;
 }
 
-.for-scroll {
+.scrollable-section {
     padding: 0 24px;
     max-width: 1200px;
     margin-left:auto;
     margin-right:auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 16px;
+}
+
+.iker-paragraph {
+    grid-column-start: 1;
+    grid-column-end: 13;
 }
 
 .visible-about {
