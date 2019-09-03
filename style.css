@@ -61,6 +61,18 @@ body {
     }
 }
 
+@keyframes image-intro {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 
 .circle {
     opacity: 0;
@@ -332,6 +344,13 @@ a {
     margin-top: 64px;
     grid-column-start: 3;
     grid-column-end: 13;
+
+    transform: translateY(100px);
+    opacity: 0;
+
+    animation: image-intro 2s cubic-bezier(0.7,-0.13, 0.01, 1.1);
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
 }
 
 .roject-1-info {
