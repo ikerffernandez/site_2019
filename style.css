@@ -27,6 +27,18 @@ body {
     }
 }
 
+@keyframes fade-in-2 {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+}
+
 @keyframes circle-in {
     0% {
         opacity: 0;
@@ -47,8 +59,8 @@ body {
     border-radius: 50%;
     pointer-events: none;
     z-index: 10000;
-    animation: circle-in 0.5s ease;
-    animation-delay: 1s;
+    animation: circle-in 1s ease;
+    animation-delay: 2.75s;
     animation-fill-mode: forwards;
 }
 
@@ -67,13 +79,20 @@ body {
 
 
 .loading-column-1,
-.loading-column-2,
-.loading-column-3,
-.loading-column-4 {
+.loading-column-3 {
     opacity: 1;
     background-color: #252525;
     width: 25%;
     animation: fade-in 0.8s ease;
+    animation-fill-mode: forwards;
+}
+
+.loading-column-2,
+.loading-column-4 {
+    opacity: 1;
+    background-color: #252525;
+    width: 25%;
+    animation: fade-in-2 0.8s ease;
     animation-fill-mode: forwards;
 }
 
