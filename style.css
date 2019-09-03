@@ -244,11 +244,13 @@ a {
 
 .cross {
     transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
     transition: transform 0.6s ease;
 }
 
 .cross-alt {
     transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
 }
 
 .footer-left {
@@ -399,14 +401,15 @@ a {
 .experience-3-year-position,
 .experience-2-year-position,
 .experience-1-year-position {
-	opacity: 0;
-    transform: translateY(8px);
+    opacity: 0;
+    -webkit-transform: translateY(8px);
     transition: all 0.4s ease;
 }
 
 .make-visible {
     opacity: 1;
     transform: translateY(0);
+    -webkit-transform: translateY(0);
 }
 
 .company {
@@ -701,6 +704,7 @@ a {
 
     .make-visible {
         transform: translateY(8px);
+        -webkit-transform: translateY(8px);
     }
 
     .company:hover {
