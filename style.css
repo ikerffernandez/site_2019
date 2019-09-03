@@ -1011,6 +1011,7 @@ a {
 }
 
     .iker-text-general {
+        max-width: 500px;
         margin-top: 0;
         margin-bottom: 102px;
         grid-column-start: 1;
