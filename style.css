@@ -451,8 +451,8 @@ a {
 .experience-2-year-position,
 .experience-1-year-position {
     opacity: 0;
-    -webkit-transform: translateY(8px);
-    transition: all 0.4s ease;
+    -webkit-transform: translateY(48px);
+    transition: all 0.8s cubic-bezier(0.7,-0.13, 0.01, 1.1);
 }
 
 .make-visible {
