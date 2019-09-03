@@ -662,6 +662,13 @@ a {
     -webkit-overflow-scrolling: touch;
 }
 
+.for-scroll {
+    padding: 0 24px;
+    max-width: 1200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 .visible-about {
     opacity: 1;
     z-index: 50;
