@@ -15,6 +15,9 @@ body {
     text-transform: none;
 }
 
+::selection {
+  background: rgba(0,0,0,0.05);
+}
 ::-moz-selection {
   background: rgba(0,0,0,0.05);
 }
