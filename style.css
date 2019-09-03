@@ -49,6 +49,18 @@ body {
     }
 }
 
+@keyframes text-intro {
+    0% {
+        transform: translateY(60px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 
 .circle {
     opacity: 0;
@@ -83,7 +95,7 @@ body {
     opacity: 1;
     background-color: #252525;
     width: 25%;
-    animation: fade-in 0.6s ease;
+    animation: fade-in 0.6s cubic-bezier(0.71, 0.04, 0, 1.03);
     animation-fill-mode: forwards;
 }
 
@@ -92,7 +104,7 @@ body {
     opacity: 1;
     background-color: #252525;
     width: 25%;
-    animation: fade-in-2 0.6s ease;
+    animation: fade-in-2 0.6s cubic-bezier(0.71, 0.04, 0, 1.03);
     animation-fill-mode: forwards;
 }
 
@@ -256,14 +268,14 @@ a {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     transition: transform 0.5s ease;
-    transition: -webkit-transform 0.5s ease;
+    transition: -webkit-transform 0.5s cubic-bezier(0.71, 0.04, 0, 1.03);
 }
 
 .cross-alt {
     transform: rotate(360deg);
     -webkit-transform: rotate(180deg);
     transition: transform 0.5s ease;
-    transition: -webkit-transform 0.5s ease;
+    transition: -webkit-transform 0.5s cubic-bezier(0.71, 0.04, 0, 1.03);
 }
 
 .footer-left {
@@ -295,9 +307,14 @@ a {
 
 
 .title {
+    transform: translateY(60px);
+    opacity: 0;
     padding-top: 120px;
     grid-column-start: 3;
     grid-column-end: 13;
+    animation: text-intro 1.2s cubic-bezier(0.7,-0.13, 0.01, 1.1);
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
 }
 
 
