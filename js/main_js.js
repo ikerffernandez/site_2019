@@ -19,6 +19,21 @@ jQuery(document).ready(function() {
 });
 
 
+//Dark Theme
+
+$('.header-left').on('click', function () {
+    $('body').toggleClass('dark-theme-general')
+    $('.circle').toggleClass('light-circle')
+    $('a').toggleClass('white-links')
+    $('h4').toggleClass('white-links')
+    $('.fullscreen-about').toggleClass('dark-theme-general')
+    $('.about-me-content').toggleClass('dark-theme-general')
+    $('.about-me a:hover').toggleClass('white-links')
+    $('.contact-info p').toggleClass('white-links')
+});
+
+
+
 //Sage
 
 
