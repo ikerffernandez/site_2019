@@ -19,6 +19,16 @@ jQuery(document).ready(function() {
 });
 
 
+//Logo animation
+
+$('.header-left').on('mouseover', function () {
+    $('.logo_1').addClass('logo_1-alt')
+});
+$('.header-left').on('mouseout', function () {
+    $('.logo_1').removeClass('logo_1-alt')
+});
+
+
 //Sage
 
 
