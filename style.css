@@ -13,7 +13,6 @@ body {
     font-size: 100%;
     color: #252525;
     text-transform: none;
-    transition: all 0.75s ease;
 }
 
 @keyframes fade-in {
@@ -61,8 +60,8 @@ body {
     border-radius: 50%;
     pointer-events: none;
     z-index: 10000;
-    animation: circle-in 1.5s ease;
-    animation-delay: 3.5s;
+    animation: circle-in 0.5s ease;
+    animation-delay: 1s;
     animation-fill-mode: forwards;
 }
 
@@ -1018,25 +1017,7 @@ a {
 	}
 
 	.experience {
-		margin-left: 0px;
+				margin-left: 0px;
 	}
 
 }
-
-
-/*This is for the dark theme*/
-
-.dark-theme-general {
-    background-color: #000000;
-    color: #ffffff;
-}
-
-.white-links {
-    color: #ffffff !important;
-}
-
-.white-border {
-    border: solid 1px #ffffff;
-}
-
-/*This is for the dark theme*/ 
