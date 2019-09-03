@@ -102,7 +102,19 @@ $('.learn-more').on('click', function () {
     $('.about-me-content').toggleClass('about-me-content-scroll')
 });
 
-$('.fullscreen-about').on('click', function () {
+$('.iker-intro-text').on('click', function () {
+    $('.fullscreen-about').toggleClass('visible-about')
+    $('.cross').toggleClass('cross-alt')
+    $('.about-me-content').toggleClass('about-me-content-scroll')
+});
+
+$('.iker-photo-about').on('click', function () {
+    $('.fullscreen-about').toggleClass('visible-about')
+    $('.cross').toggleClass('cross-alt')
+    $('.about-me-content').toggleClass('about-me-content-scroll')
+});
+
+$('.iker-about-title').on('click', function () {
     $('.fullscreen-about').toggleClass('visible-about')
     $('.cross').toggleClass('cross-alt')
     $('.about-me-content').toggleClass('about-me-content-scroll')
