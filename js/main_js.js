@@ -77,6 +77,16 @@ $('.liricigreci').on('mouseout', function () {
 });
 
 
+//Logo rotate
+
+$('.header-left').on('mouseover', function () {
+    $('.logo-1').addClass('logo-1-rotate')
+});
+$('.header-left').on('mouseout', function () {
+    $('.logo-1').removeClass('logo-1-rotate')
+});
+
+
 
 //Fullscreen About
 
