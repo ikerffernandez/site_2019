@@ -1019,6 +1019,11 @@ a {
         grid-column-end: 13;
     }
 
+    .iker-intro-text h4 {
+        font-size: 30px;
+        line-height: 44px;
+    }
+
 }    
 
 @media (max-width: 740px) {
