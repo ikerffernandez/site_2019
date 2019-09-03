@@ -717,9 +717,9 @@ a {
 }
 
 .iker-photo-about {
+    position: fixed;
     margin-top: 130px;
-    grid-column-start: 1;
-    grid-column-end: 5;
+    width: 392px;
 }
 
 .iker-photo-about img {
@@ -905,6 +905,20 @@ a {
     	margin-top: 196px;
     }
 
+
+    .iker-photo-about {
+        position: fixed;
+        margin-top: 130px;
+        width: 292px;
+}
+
+    .iker-text-general {
+        margin-top: 220px;
+        margin-bottom: 102px;
+        grid-column-start: 6;
+        grid-column-end: 12;
+    }
+
 }    
 
 @media (max-width: 768px) {
@@ -989,6 +1003,20 @@ a {
         margin: -4px;
         padding: 0;
     }
+
+    .iker-photo-about {
+        position: relative;
+        margin-top: 130px;
+        max-width: 900px;
+}
+
+    .iker-text-general {
+        margin-top: 0;
+        margin-bottom: 102px;
+        grid-column-start: 1;
+        grid-column-end: 13;
+    }
+
 
 }    
 
