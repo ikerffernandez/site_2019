@@ -709,29 +709,28 @@ a {
 }
 
 .iker-about-title {
-    grid-column-start: 1;
+    grid-column-start: 3;
     grid-column-end: 13;
     grid-row: 1;
-    margin-top: 568px;
+    margin-top: 60px;
     color: #F94A4A;
 }
 
 .iker-photo-about {
-    margin-top: 80px;
-    grid-column-start: 2;
-    grid-column-end: 6;
-    grid-row: 1;
+    margin-top: 130px;
+    grid-column-start: 1;
+    grid-column-end: 5;
 }
 
 .iker-photo-about img {
     width: 100%;
 }
 
-.iker-intro-text {
+.iker-text-general {
+    margin-top: 220px;
+    margin-bottom: 102px;
     grid-column-start: 7;
     grid-column-end: 13;
-    grid-row: 1;
-    margin-top: 120px;
 }
 
 .iker-intro-text h4 {
@@ -740,11 +739,7 @@ a {
 }
 
 .iker-paragraph {
-    grid-column-start: 7;
-    grid-column-end: 13;
-    grid-row: 1;
-    margin-top: 350px;
-    margin-bottom: 20px;
+    margin-bottom: 56px;
 }
 
 .iker-paragraph p {
@@ -752,12 +747,6 @@ a {
     color: #252525;
     font-size: 18px;
     line-height: 28px;
-}
-
-.iker-contact-info {
-    grid-column-start: 7;
-    grid-column-end: 13;
-    margin-bottom: 120px;
 }
 
 .iker-contact-info a {
