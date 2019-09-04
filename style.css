@@ -252,18 +252,18 @@ a {
     cursor: pointer;
 }
 
-/*.header-left {  WHEN THE LOGO IMAGE IS DISLPAYED
+.header-left { 
     font-size: 16px;
     font-weight: 600;
     padding-left: 40px;
     color: #252525;
     opacity: 1;
     transform: all 1 ease;
-}*/
+}
 
 /* THIS IS FOR THE TEXT LOGO*/
 
-.header-left {
+/*.header-left {
     font-family: 'Merriweather', serif;
     font-size: 20px;
     font-weight: 900;
@@ -275,7 +275,7 @@ a {
     -webkit-text-stroke-color: #F94A4A;
     opacity: 1;
     transform: all 1 ease;
-}
+}*/
 
 
 
@@ -828,6 +828,21 @@ a {
 }
 
 @media (max-width: 1025px) {
+
+    .scrollable-section {
+        display: block;
+    }
+
+    .iker-contact-info {
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 80px;
+    }
+
+    .iker-text-general,
+    iker-paragraph {
+        margin-bottom: 0;
+    }
 
     .circle {
         display: none;
