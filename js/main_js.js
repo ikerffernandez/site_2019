@@ -131,3 +131,15 @@ $('.iker-about-title').on('click', function () {
     $('.about-me-content').toggleClass('about-me-content-scroll')
     $('body').toggleClass('stop-scrolling')
 });
+
+$(document).ready(function () {
+    $(document).keydown(function(e){
+
+        if(e.keyCode == 27) {
+            $('.fullscreen-about').removeClass('visible-about')
+            $('.about-me-content').removeClass('about-me-content-scroll')
+            $('body').removeClass('stop-scrolling')
+            $('.cross').removeClass('cross-alt')
+        }
+    });
+})
