@@ -90,42 +90,7 @@ $('.liricigreci').on('mouseout', function () {
 
 //Fullscreen About
 
-$('.header-right').on('click', function () {
-    $('.fullscreen-about').toggleClass('visible-about')
-    $('.cross').toggleClass('cross-alt')
-    $('.about-me-content').toggleClass('about-me-content-scroll')
-    $('body').toggleClass('stop-scrolling')
-});
-
-$('.learn-more').on('click', function () {
-    $('.fullscreen-about').addClass('visible-about')
-    $('.cross').toggleClass('cross-alt')
-    $('.about-me-content').toggleClass('about-me-content-scroll')
-    $('body').toggleClass('stop-scrolling')
-});
-
-$('.iker-intro-text').on('click', function () {
-    $('.fullscreen-about').toggleClass('visible-about')
-    $('.cross').toggleClass('cross-alt')
-    $('.about-me-content').toggleClass('about-me-content-scroll')
-    $('body').toggleClass('stop-scrolling')
-});
-
-$('.iker-photo-about').on('click', function () {
-    $('.fullscreen-about').toggleClass('visible-about')
-    $('.cross').toggleClass('cross-alt')
-    $('.about-me-content').toggleClass('about-me-content-scroll')
-    $('body').toggleClass('stop-scrolling')
-});
-
-$('.iker-paragraph').on('click', function () {
-    $('.fullscreen-about').toggleClass('visible-about')
-    $('.cross').toggleClass('cross-alt')
-    $('.about-me-content').toggleClass('about-me-content-scroll')
-    $('body').toggleClass('stop-scrolling')
-});
-
-$('.iker-about-title').on('click', function () {
+$('.header-right, .learn-more, .iker-intro-text, .iker-photo-about, .iker-paragraph, .iker-about-title').on('click', function () {
     $('.fullscreen-about').toggleClass('visible-about')
     $('.cross').toggleClass('cross-alt')
     $('.about-me-content').toggleClass('about-me-content-scroll')
@@ -150,7 +115,7 @@ $(document).ready(function () {
 //Dark theme
 
 $('.header-left').on('click', function () {
-    $('html').toggleClass('dark-theme-main')
+    $('html, .fullscreen-about').toggleClass('dark-theme-main')
 });
 
 $('.header-left').on('click', function () {
@@ -158,19 +123,5 @@ $('.header-left').on('click', function () {
 });
 
 $('.header-left').on('click', function () {
-    $('.project-title a').toggleClass('white-text')
+    $('.project-title a, .year-position h5, .experience-description, .company h2').toggleClass('white-text')
 });
-
-$('.header-left').on('click', function () {
-    $('.year-position h5').toggleClass('white-text')
-});
-
-$('.header-left').on('click', function () {
-    $('.experience-description').toggleClass('white-text')
-});
-
-$('.header-left').on('click', function () {
-    $('.fullscreen-about').toggleClass('dark-theme-main')
-});
-
-
