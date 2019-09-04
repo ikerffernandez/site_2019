@@ -272,7 +272,7 @@ a {
     color: #F94A4A;
     -webkit-text-fill-color: rgba(255, 255, 255,0);
     -webkit-text-stroke-width: 0.85px;
-    -webkit-text-stroke-color: #eeeeee;
+    -webkit-text-stroke-color: #F94A4A;
     opacity: 1;
     transform: all 1 ease;
 }
