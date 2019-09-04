@@ -817,11 +817,23 @@ a {
 }
 
 .white-text {
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
-@media (max-width: 1150px) {
+.circle-white {
+    border: solid 1px #ffffff;
+}
 
+.iker-contact-info-alt {
+    border-left: 1px solid #737373;
+}
+
+.button-border-white {
+    border-bottom: 1px solid #ffffff;
+}
+
+
+@media (max-width: 1150px) {
     .contact-info a {
         padding-bottom: 8px;
 }

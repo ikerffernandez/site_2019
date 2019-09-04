@@ -115,7 +115,7 @@ $(document).ready(function () {
 //Dark theme
 
 $('.header-left').on('click', function () {
-    $('html, .fullscreen-about').toggleClass('dark-theme-main')
+    $('html, body, .fullscreen-about').toggleClass('dark-theme-main')
 });
 
 $('.header-left').on('click', function () {
@@ -123,5 +123,17 @@ $('.header-left').on('click', function () {
 });
 
 $('.header-left').on('click', function () {
-    $('.project-title a, .year-position h5, .experience-description, .company h2').toggleClass('white-text')
+    $('.project-title a, .year-position h5, .experience-description, h2, h4, .iker-paragraph p, .contact-info a, .contact-info p, .button a, .about-me a').toggleClass('white-text')
+});
+
+$('.header-left').on('click', function () {
+    $('.circle').toggleClass('circle-white')
+});
+
+$('.header-left').on('click', function () {
+    $('.iker-contact-info').toggleClass('iker-contact-info-alt')
+});
+
+$('.header-left').on('click', function () {
+    $('.button').toggleClass('button-border-white')
 });
