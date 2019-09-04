@@ -94,28 +94,40 @@ $('.header-right').on('click', function () {
     $('.fullscreen-about').toggleClass('visible-about')
     $('.cross').toggleClass('cross-alt')
     $('.about-me-content').toggleClass('about-me-content-scroll')
+    $('body').toggleClass('stop-scrolling')
 });
 
 $('.learn-more').on('click', function () {
     $('.fullscreen-about').addClass('visible-about')
     $('.cross').toggleClass('cross-alt')
     $('.about-me-content').toggleClass('about-me-content-scroll')
+    $('body').toggleClass('stop-scrolling')
 });
 
 $('.iker-intro-text').on('click', function () {
     $('.fullscreen-about').toggleClass('visible-about')
     $('.cross').toggleClass('cross-alt')
     $('.about-me-content').toggleClass('about-me-content-scroll')
+    $('body').toggleClass('stop-scrolling')
 });
 
 $('.iker-photo-about').on('click', function () {
     $('.fullscreen-about').toggleClass('visible-about')
     $('.cross').toggleClass('cross-alt')
     $('.about-me-content').toggleClass('about-me-content-scroll')
+    $('body').toggleClass('stop-scrolling')
+});
+
+$('.iker-paragraph').on('click', function () {
+    $('.fullscreen-about').toggleClass('visible-about')
+    $('.cross').toggleClass('cross-alt')
+    $('.about-me-content').toggleClass('about-me-content-scroll')
+    $('body').toggleClass('stop-scrolling')
 });
 
 $('.iker-about-title').on('click', function () {
     $('.fullscreen-about').toggleClass('visible-about')
     $('.cross').toggleClass('cross-alt')
     $('.about-me-content').toggleClass('about-me-content-scroll')
+    $('body').toggleClass('stop-scrolling')
 });
