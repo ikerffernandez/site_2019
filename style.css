@@ -833,6 +833,11 @@ a {
         display: block;
     }
 
+    .iker-intro-text h4 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
     .iker-contact-info {
         position: relative;
         margin-top: 0;
@@ -842,6 +847,11 @@ a {
     .iker-text-general,
     iker-paragraph {
         margin-bottom: 0;
+    }
+
+    .iker-paragraph p {
+        font-size: 20px;
+        line-height: 28px;
     }
 
     .circle {
