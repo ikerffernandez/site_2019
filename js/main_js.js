@@ -132,6 +132,8 @@ $('.iker-about-title').on('click', function () {
     $('body').toggleClass('stop-scrolling')
 });
 
+//Close about-me with ESC
+
 $(document).ready(function () {
     $(document).keydown(function(e){
 
@@ -143,3 +145,14 @@ $(document).ready(function () {
         }
     });
 })
+
+
+//Dark theme
+
+$('.header-left').on('click', function () {
+    $('html').toggleClass('dark-theme-main')
+});
+
+$('.header-left').on('click', function () {
+    $('header img').toggleClass('inverted-header')
+});

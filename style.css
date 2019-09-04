@@ -1,5 +1,6 @@
 ﻿html {
     scroll-behavior: smooth;
+    transition: all 0.5s ease;
 }
 
 
@@ -162,6 +163,10 @@ header {
     transform: rotate(15deg);
     transition: all 0.5s ease;
     margin-right: 6px;
+}
+
+.logo_2 {
+    transition: all 0.5s ease;
 }
 
 .logo_1-alt {
@@ -800,6 +805,15 @@ a {
 .visible-about {
     opacity: 1;
     z-index: 50;
+}
+
+.dark-theme-main {
+    background-color: #252525;
+    color: white;
+}
+
+.inverted-header {
+    filter: invert(100%) contrast(1.5);
 }
 
 @media (max-width: 1150px) {
