@@ -817,7 +817,8 @@ a {
 	.experience-3-year-position,
 	.experience-2-year-position,
 	.experience-1-year-position {
-	opacity: 1;
+		opacity: 1;
+		-webkit-transform: translateY(48px);
 }
 
     .make-visible {
