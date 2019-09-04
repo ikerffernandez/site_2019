@@ -252,18 +252,35 @@ a {
     cursor: pointer;
 }
 
-.header-left {
+/*.header-left {  WHEN THE LOGO IMAGE IS DISLPAYED
     font-size: 16px;
     font-weight: 600;
     padding-left: 40px;
     color: #252525;
     opacity: 1;
     transform: all 1 ease;
+}*/
+
+/* THIS IS FOR THE TEXT LOGO*/
+
+.header-left {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: -8px;
+    padding-left: 40px;
+    color: #F94A4A;
+    -webkit-text-fill-color: rgba(255, 255, 255,0);
+    -webkit-text-stroke-width: 0.85px;
+    -webkit-text-stroke-color: #a2a2a2;
+    opacity: 1;
+    transform: all 1 ease;
 }
+
+
 
 .opacity_0 {
     opacity: 0;
-
 }
 
 /*.section-name {
