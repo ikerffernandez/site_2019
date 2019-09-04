@@ -252,31 +252,18 @@ a {
     cursor: pointer;
 }
 
-/*.header-left {  WHEN THE LOGO IMAGE IS DISLPAYED
+.header-left {
     font-size: 16px;
     font-weight: 600;
     padding-left: 40px;
     color: #252525;
     opacity: 1;
     transform: all 1 ease;
-}*/
-
-/* THIS IS FOR THE TEXT LOGO*/
-
-.header-left {
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: -6px;
-    padding-left: 40px;
-    color: #F94A4A;
-    opacity: 1;
-    transform: all 1 ease;
 }
-
-
 
 .opacity_0 {
     opacity: 0;
+
 }
 
 /*.section-name {
