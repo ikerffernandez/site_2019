@@ -816,6 +816,10 @@ a {
     filter: invert(100%) contrast(1.5);
 }
 
+.white-text {
+    color: #ffffff;
+}
+
 @media (max-width: 1150px) {
 
     .contact-info a {

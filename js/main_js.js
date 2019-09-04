@@ -156,3 +156,21 @@ $('.header-left').on('click', function () {
 $('.header-left').on('click', function () {
     $('header img').toggleClass('inverted-header')
 });
+
+$('.header-left').on('click', function () {
+    $('.project-title a').toggleClass('white-text')
+});
+
+$('.header-left').on('click', function () {
+    $('.year-position h5').toggleClass('white-text')
+});
+
+$('.header-left').on('click', function () {
+    $('.experience-description').toggleClass('white-text')
+});
+
+$('.header-left').on('click', function () {
+    $('.fullscreen-about').toggleClass('dark-theme-main')
+});
+
+
