@@ -758,8 +758,8 @@ a {
     grid-column-start: 3;
     grid-column-end: 13;
     margin-top: 124px;
-    transform: translateY(80px);
-    transition: all 1s cubic-bezier(0.7,-0.13, 0.01, 1.1);
+    transform: translateY(100px);
+    transition: all 1.2s cubic-bezier(0.7,-0.13, 0.01, 1.1);
     transition-delay: 0.3s;
     opacity: 0;
 }
@@ -785,8 +785,8 @@ a {
 
 .iker-intro-text {
     transform: translateY(32px);
-    transition: all 0.6s cubic-bezier(0.7,-0.13, 0.01, 1.1);
-    transition-delay: 0.7s;
+    transition: all 1.5s cubic-bezier(0.7,-0.13, 0.01, 1.1);
+    transition-delay: 0.5s;
     opacity: 0;
 }
 
