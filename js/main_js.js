@@ -98,7 +98,7 @@ $('.header-right, .learn-more, .iker-intro-text, .iker-photo-about, .iker-paragr
 });
 
 $('.header-right, .learn-more, .iker-intro-text, .iker-photo-about, .iker-paragraph, .iker-about-title').on('click', function () {
-    $('.iker-intro-text, .iker-photo-about').toggleClass('iker-intro-text-alt')
+    $('.iker-intro-text, .iker-photo-about').addClass('iker-intro-text-alt')
 });
 
 //Close about-me with ESC
