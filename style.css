@@ -758,6 +758,10 @@ a {
     grid-column-start: 3;
     grid-column-end: 13;
     margin-top: 124px;
+    transform: translateY(80px);
+    transition: all 1s cubic-bezier(0.7,-0.13, 0.01, 1.1);
+    transition-delay: 0.3s;
+    opacity: 0;
 }
 
 .iker-photo-about img {
@@ -777,6 +781,18 @@ a {
     color: #252525;
     font-size: 48px;
     line-height: 60px;
+}
+
+.iker-intro-text {
+    transform: translateY(32px);
+    transition: all 0.6s cubic-bezier(0.7,-0.13, 0.01, 1.1);
+    transition-delay: 0.7s;
+    opacity: 0;
+}
+
+.iker-intro-text-alt {
+    transform: translateY(0);
+    opacity: 1;
 }
 
 .iker-paragraph {

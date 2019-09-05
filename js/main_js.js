@@ -97,6 +97,10 @@ $('.header-right, .learn-more, .iker-intro-text, .iker-photo-about, .iker-paragr
     $('body').toggleClass('stop-scrolling')
 });
 
+$('.header-right, .learn-more, .iker-intro-text, .iker-photo-about, .iker-paragraph, .iker-about-title').on('click', function () {
+    $('.iker-intro-text, .iker-photo-about').toggleClass('iker-intro-text-alt')
+});
+
 //Close about-me with ESC
 
 $(document).ready(function () {
