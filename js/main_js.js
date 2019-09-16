@@ -95,11 +95,14 @@ $('.header-right, .learn-more, .iker-intro-text, .iker-photo-about, .iker-paragr
     $('.cross').toggleClass('cross-alt')
     $('.about-me-content').toggleClass('about-me-content-scroll')
     $('body').toggleClass('stop-scrolling')
+    $('.header-center').toggleClass('make-invisible')
 });
 
 $('.header-right, .learn-more, .iker-intro-text, .iker-photo-about, .iker-paragraph, .iker-about-title').on('click', function () {
     $('.iker-text-general, .iker-photo-about, .iker-contact-info').toggleClass('iker-intro-text-alt')
 });
+
+
 
 //Close about-me with ESC
 
@@ -124,6 +127,11 @@ $('.header-left').on('click', function () {
 
 $('.header-left').on('click', function () {
     $('header img').toggleClass('inverted-header')
+});
+
+$('.header-left').on('click', function () {
+    $('.progress-background').toggleClass('progress-background-light')
+    $('.progress-front').toggleClass('progress-front-light')
 });
 
 $('.header-left').on('click', function () {
