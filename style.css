@@ -843,18 +843,53 @@ a {
     grid-row: 4;
     grid-column-start: 6;
     grid-column-end: 10;
+    transform: translateY(32px);
+    transition: all 1.5s cubic-bezier(0.7,-0.13, 0.01, 1.1);
+    transition-delay: 0.7s;
+    opacity: 0;
 }
 
 .contact-education-experience {
     grid-row: 4;
     grid-column-start: 3;
     grid-column-end: 5;
+    transition: all 1.5s cubic-bezier(0.7,-0.13, 0.01, 1.1);
+    transition-delay: 0.7s;
+    opacity: 0;
+}
+
+.contact-education-experience h5 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #252525;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.contact-education-experience h6 {
+    font-size: 12px;
+    font-weight: normal;
+    color: #252525;
+}
+
+.contact-education-experience p {
+    font-size: 12px;
+    font-weight: normal;
+    color: #a2a2a2;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 4px;
+    margin-bottom: 24px;
 }
 
 .iker-text-long p {
     font-size: 16px;
     line-height: 24px;
     color: #252525;
+}
+
+.space {
+    height: 16px;
 }
 
 .iker-contact-info {

@@ -116,7 +116,7 @@ $('.header-right, .learn-more, .iker-intro-text, .iker-photo-about, .iker-paragr
 });
 
 $('.header-right, .learn-more, .iker-intro-text, .iker-photo-about, .iker-paragraph, .iker-about-title, .iker-text-long, .contact-education-experience').on('click', function () {
-    $('.iker-text-general, .iker-photo-about, .iker-contact-info').toggleClass('iker-intro-text-alt')
+    $('.iker-text-general, .iker-photo-about, .iker-contact-info, .iker-text-long, .contact-education-experience').toggleClass('iker-intro-text-alt')
 });
 
 
@@ -152,7 +152,7 @@ $('.header-left').on('click', function () {
 });
 
 $('.header-left').on('click', function () {
-    $('.project-title a, .year-position h5, .experience-description, h2, .iker-text-long p, .about-me-text h4, .iker-paragraph p, .contact-info a, .contact-info p, .button a, .about-me a').toggleClass('white-text')
+    $('.project-title a, .year-position h5, .experience-description, h2, .iker-text-long p, .about-me-text h4, .iker-paragraph p, .contact-info a, .contact-info p, .button a, .about-me a, .contact-education-experience h6, .contact-education-experience h5').toggleClass('white-text')
 });
 
 $('.header-left').on('click', function () {
