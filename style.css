@@ -271,11 +271,10 @@ a {
 .header-left { 
     font-size: 16px;
     font-weight: 600;
-    padding-left: 40px;
+    padding-left: 24px;
     color: #252525;
     opacity: 1;
     transform: all 1s ease;
-    width: 20%;
 }
 
 .header-center {
@@ -285,6 +284,7 @@ a {
     opacity: 1;
     transition: all 0.15s ease;
     max-width: 196px;
+    padding-left: 32px;
 }
 
 .make-invisible {
@@ -962,6 +962,10 @@ a {
 
 @media (max-width: 1000px) {
 
+    .header-left {
+        width: 10%;
+    }
+  
 
 	.experience {
 		display: block;
@@ -1079,7 +1083,7 @@ a {
 	}
 
     .header-left {
-        padding-left: 24px;
+        width: 12%;
     }
 
     .header-right {
@@ -1151,7 +1155,6 @@ a {
 
 @media (max-width: 740px) {
 
-
     .menu-item {
         font-size: 68px;
         line-height: 82px;
@@ -1217,7 +1220,7 @@ a {
     }
 
     .header-left {
-        width: 40%;
+        width: 32%;
     }
 
     .about-me-text h4 {
@@ -1291,4 +1294,11 @@ a {
 				margin-left: 0px;
 	}
 
+}
+
+@media (max-width: 308px) {
+
+    .header-center {
+        display: none;
+    }
 }
