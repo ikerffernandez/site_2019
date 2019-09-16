@@ -275,6 +275,7 @@ a {
     color: #252525;
     opacity: 1;
     transform: all 1s ease;
+    width: 20%;
 }
 
 .header-center {
@@ -283,6 +284,7 @@ a {
     width: 70%;
     opacity: 1;
     transition: all 0.15s ease;
+    max-width: 196px;
 }
 
 .make-invisible {
@@ -292,14 +294,12 @@ a {
 .progress-background {
     background-color: rgba(37, 37, 37, 0.1);
     height: 1px;
-    max-width: 196px;
 }
 
 .progress-front {
     background-color: #252525;
     height: 1px;
-    max-width: 196px;
-    width: 32px;
+    width: 0px;
     position: relative;
 }
 
@@ -348,6 +348,8 @@ a {
 .header-right {
     padding-right: 40px;
     cursor: pointer;
+    width: 65%;
+    text-align: right;
 }
 
 .cross {
@@ -1211,7 +1213,11 @@ a {
 	}
 
     .header-center {
-        display: none;
+        padding-left: 20px;
+    }
+
+    .header-left {
+        width: 40%;
     }
 
     .about-me-text h4 {
