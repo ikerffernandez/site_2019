@@ -107,7 +107,7 @@ $('.liricigreci').on('mouseout', function () {
 
 //Fullscreen About
 
-$('.header-right, .learn-more, .iker-intro-text, .iker-photo-about, .iker-paragraph, .iker-about-title, .iker-text-long, .contact-education-experience').on('click', function () {
+$('.header-right, .learn-more, .iker-intro-text, .iker-photo-about, .iker-paragraph, .iker-about-title, .contact-education-experience').on('click', function () {
     $('.fullscreen-about').toggleClass('visible-about')
     $('.cross').toggleClass('cross-alt')
     $('.about-me-content').toggleClass('about-me-content-scroll')
@@ -115,7 +115,7 @@ $('.header-right, .learn-more, .iker-intro-text, .iker-photo-about, .iker-paragr
     $('.header-center').toggleClass('make-invisible')
 });
 
-$('.header-right, .learn-more, .iker-intro-text, .iker-photo-about, .iker-paragraph, .iker-about-title, .iker-text-long, .contact-education-experience').on('click', function () {
+$('.header-right, .learn-more, .iker-intro-text, .iker-photo-about, .iker-paragraph, .iker-about-title, .contact-education-experience').on('click', function () {
     $('.iker-text-general, .iker-photo-about, .iker-contact-info, .iker-text-long, .contact-education-experience').toggleClass('iker-intro-text-alt')
 });
 
