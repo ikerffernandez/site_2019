@@ -152,7 +152,7 @@ $('.header-left').on('click', function () {
 });
 
 $('.header-left').on('click', function () {
-    $('.project-title a, .year-position h5, .experience-description, h2, .iker-text-long p, .about-me-text h4, .iker-paragraph p, .contact-info a, .contact-info p, .button a, .about-me a, .contact-education-experience h6, .contact-education-experience h5').toggleClass('white-text')
+    $('.project-title a, .year-position h5, .experience-description, h2, .iker-text-long p, .about-me-text h4, .iker-paragraph p, .contact-info a, .contact-info p, .button a, .about-me a, .contact-education-experience h6, .contact-education-experience h5, .iker-contact-info a').toggleClass('white-text')
 });
 
 $('.header-left').on('click', function () {
