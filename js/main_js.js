@@ -116,7 +116,7 @@ $('.header-right, .learn-more, .iker-intro-text, .iker-photo-about, .iker-paragr
 });
 
 $('.header-right, .learn-more, .iker-intro-text, .iker-photo-about, .iker-paragraph, .iker-about-title, .contact-education-experience').on('click', function () {
-    $('.iker-text-general, .iker-photo-about, .iker-contact-info, .iker-text-long, .contact-education-experience').toggleClass('iker-intro-text-alt')
+    $('.iker-text-general, .iker-photo-about, .iker-contact-info, .iker-text-long, .contact-education-experience, .note').toggleClass('iker-intro-text-alt')
 });
 
 

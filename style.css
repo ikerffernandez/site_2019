@@ -922,14 +922,16 @@ a {
     grid-row: 5;
     grid-column-start: 4;
     grid-column-end: 8;
-    border-top: 1px #d8d8d8 solid;
     padding-top: 4px;
     margin-top: 24px;
-    transition: all 0.3s ease;
+    transform: translateY(32px);
+    transition: all 1.5s cubic-bezier(0.7,-0.13, 0.01, 1.1);
+    transition-delay: 0.7s;
+    opacity: 0;
 }
 
-    .note p {
-        font-family: 'Roboto Mono', monospace;
+.note p {
+      font-family: 'Roboto Mono', monospace;
         font-style: italic;
         font-size: 10px;
         line-height: 16px;
@@ -940,10 +942,6 @@ a {
 
 .note p:hover {
     color: #F94A4A;
-}
-
-.note:hover {
-    border-top: 1px #F94A4A solid;
 }
 
 .visible-about {
@@ -1153,13 +1151,8 @@ a {
     }
 
     .note {
-        border-top: 1px rgba(0,0,0,0) solid;
         max-width: 198px;
         margin-bottom: 132px;
-    }
-
-    .note:hover {
-        border-top: 1px rgba(0,0,0,0) solid;
     }
 
     .note p {
