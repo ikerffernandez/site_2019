@@ -918,6 +918,34 @@ a {
     color: #F94A4A;
 }
 
+.note {
+    grid-row: 5;
+    grid-column-start: 4;
+    grid-column-end: 8;
+    border-top: 1px #d8d8d8 solid;
+    padding-top: 4px;
+    margin-top: 24px;
+    transition: all 0.3s ease;
+}
+
+    .note p {
+        font-family: 'Roboto Mono', monospace;
+        font-style: italic;
+        font-size: 10px;
+        line-height: 16px;
+        color: #d8d8d8;
+        margin: 0;
+        transition: all 0.3s ease;
+    }
+
+.note p:hover {
+    color: #F94A4A;
+}
+
+.note:hover {
+    border-top: 1px #F94A4A solid;
+}
+
 .visible-about {
     opacity: 1;
     z-index: 50;
@@ -1121,7 +1149,21 @@ a {
         margin-top: 56px;
         padding-top: 24px;
         padding-bottom: 24px;
-        margin-bottom: 136px;
+        margin-bottom: 0;
+    }
+
+    .note {
+        border-top: 1px rgba(0,0,0,0) solid;
+        max-width: 198px;
+        margin-bottom: 132px;
+    }
+
+    .note:hover {
+        border-top: 1px rgba(0,0,0,0) solid;
+    }
+
+    .note p {
+        color: #F94A4A;
     }
 
     .iker-paragraph p {
