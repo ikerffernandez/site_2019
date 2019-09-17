@@ -131,6 +131,8 @@ $(document).ready(function () {
             $('.about-me-content').removeClass('about-me-content-scroll')
             $('body').removeClass('stop-scrolling')
             $('.cross').removeClass('cross-alt')
+            $('.header-center').removeClass('make-invisible')
+            $('.iker-text-general, .iker-photo-about, .iker-contact-info, .iker-text-long, .contact-education-experience, .note').removeClass('iker-intro-text-alt')
         }
     });
 })
