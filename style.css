@@ -998,7 +998,7 @@ a {
 
 .gif {
     margin: -165px 0 0 -900px;
-    transition: all 0.95s ease;
+    transition: all 0.65s ease;
     clip-path: polygon(100% 100%, 100% 0, 100% 0, 100% 100%);
     transform: translateX(-24px);
     opacity: 0;
