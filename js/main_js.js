@@ -164,3 +164,21 @@ $('.header-left').on('click', function () {
 $('.header-left').on('click', function () {
     $('.button').toggleClass('button-border-white')
 });
+
+//Contact links hover effect
+
+$('.instagram-link').on('mouseover', function () {
+    $('.insta').addClass('visible-images')
+});
+
+$('.instagram-link').on('mouseout', function () {
+    $('.insta').removeClass('visible-images')
+});
+
+$('.email-link').on('mouseover', function () {
+    $('.gif').addClass('visible-images')
+});
+
+$('.email-link').on('mouseout', function () {
+    $('.gif').removeClass('visible-images')
+});

@@ -192,7 +192,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 16px;
-    padding-top: 216px;
+    padding-top: 56px;
     font-size: 12px;
     line-height: 18px;
     font-weight: 400;
@@ -690,6 +690,7 @@ a {
 .contact-info {
     grid-column-start: 1;
     grid-column-end: 8;
+    z-index: 2;
 }
 
 /*.contact-text {
@@ -967,8 +968,61 @@ a {
     border-bottom: 1px solid #ffffff;
 }
 
+.insta1 {
+    margin: -239px 0 0 -220px;
+    transition: all 0.8s cubic-bezier(0.66, 0.28, 0, 0.94);
+    clip-path: polygon(95% 100%, 100% 100%, 0 100%, 0 100%);
+    transform: translateY(-64px);
+    transition-delay: 0s;
+}
+
+.insta2 {
+    margin: -30px 0 0 466px;
+    transition: all 0.9s cubic-bezier(0.66, 0.28, 0, 0.94);
+    clip-path: polygon(95% 100%, 100% 100%, 0 100%, 0 100%);
+    transform: translateY(24px);
+    transition-delay: 0.1s;
+}
+
+.insta3 {
+    margin: 190px 0 0 -730px;
+    transition: all 1s cubic-bezier(0.66, 0.28, 0, 0.94);
+    clip-path: polygon(0 99%, 0 0, 0 0, 0 100%);
+    transform: translateX(24px);
+    transition-delay: 0.12s;
+}
+
+.insta {
+    opacity: 0;
+}
+
+.gif {
+    margin: -165px 0 0 -900px;
+    transition: all 0.95s ease;
+    clip-path: polygon(100% 100%, 100% 0, 100% 0, 100% 100%);
+    transform: translateX(-24px);
+    opacity: 0;
+}
+
+.visible-images {
+    opacity: 1;
+    clip-path: polygon(100% 100%, 100% 0, 0 0, 0 100%);
+    transform: translateX(0);
+    transform: translateY(0);
+}
+
 
 @media (max-width: 1150px) {
+
+    .insta,
+    .gif {
+        display: none;
+    }
+
+    footer {
+        padding-top: 132px;
+    }
+
     .contact-info a {
         padding-bottom: 8px;
 }
@@ -982,6 +1036,10 @@ a {
 
     .contact-info p {
         margin: 0 16px;
+    }
+
+    .contact {
+        padding-top: 132px;
     }
 
 
@@ -998,6 +1056,7 @@ a {
 }
 
 @media (max-width: 1025px) {
+
 
     .iker-text-long {
         grid-column-end: 12
@@ -1363,6 +1422,7 @@ a {
 	    margin-top: 48px;
 	    grid-column-start: 3;
 	    grid-column-end: 13;
+
 }
 
     .project-2,
