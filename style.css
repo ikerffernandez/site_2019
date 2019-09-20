@@ -1046,6 +1046,7 @@ a {
 @media (max-width: 1150px) {
 
     .insta,
+    .dribbble,
     .gif {
         display: none;
     }
