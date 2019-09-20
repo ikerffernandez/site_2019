@@ -182,3 +182,11 @@ $('.email-link').on('mouseover', function () {
 $('.email-link').on('mouseout', function () {
     $('.gif').removeClass('visible-images')
 });
+
+$('.dribbble-link').on('mouseover', function () {
+    $('.dribbble').addClass('visible-images')
+});
+
+$('.dribbble-link').on('mouseout', function () {
+    $('.dribbble').removeClass('visible-images')
+});

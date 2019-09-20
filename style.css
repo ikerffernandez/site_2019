@@ -972,7 +972,7 @@ a {
 }
 
 .insta1 {
-    margin: -239px 0 0 -220px;
+    margin: -190px 0 0 -829px;
     transition: all 0.8s cubic-bezier(0.66, 0.28, 0, 0.94);
     clip-path: polygon(95% 100%, 100% 100%, 0 100%, 0 100%);
     transform: translateY(-64px);
@@ -980,7 +980,7 @@ a {
 }
 
 .insta2 {
-    margin: -30px 0 0 466px;
+    margin: -30px 0 0 -114px;
     transition: all 0.9s cubic-bezier(0.66, 0.28, 0, 0.94);
     clip-path: polygon(95% 100%, 100% 100%, 0 100%, 0 100%);
     transform: translateY(24px);
@@ -988,14 +988,42 @@ a {
 }
 
 .insta3 {
-    margin: 190px 0 0 -730px;
+    margin: 190px 0 0 -750px;
     transition: all 1s cubic-bezier(0.66, 0.28, 0, 0.94);
     clip-path: polygon(0 99%, 0 0, 0 0, 0 100%);
     transform: translateX(24px);
     transition-delay: 0.12s;
 }
 
+.dribbble1 {
+    margin: 228px 0 0px -430px;
+    transition: all 0.8s cubic-bezier(0.66, 0.28, 0, 0.94);
+    clip-path: polygon(95% 100%, 100% 100%, 0 100%, 0 100%);
+    transform: translateY(-64px);
+    transition-delay: 0s;
+}
+
+.dribbble2 {
+    margin: -430px 0 0 -140px;
+    transition: all 1s cubic-bezier(0.66, 0.28, 0, 0.94);
+    clip-path: polygon(0 99%, 0 0, 0 0, 0 100%);
+    transform: translateX(24px);
+    transition-delay: 0.12s;
+}
+
+.dribbble3 {
+    margin: -700px 0 0 76px;
+    transition: all 0.9s cubic-bezier(0.66, 0.28, 0, 0.94);
+    clip-path: polygon(95% 100%, 100% 100%, 0 100%, 0 100%);
+    transform: translateY(24px);
+    transition-delay: 0.1s;
+}
+
 .insta {
+    opacity: 0;
+}
+
+.dribbble {
     opacity: 0;
 }
 
