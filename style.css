@@ -1042,6 +1042,13 @@ a {
     transform: translateY(0);
 }
 
+@media (max-width: 1233px) {
+
+    h2 {
+        font-size: 100px;
+    }
+}
+
 
 @media (max-width: 1150px) {
 
@@ -1057,7 +1064,7 @@ a {
 
     .contact-info a {
         padding-bottom: 8px;
-}
+    }
 
     .contact-info a,
     .contact-info p {
@@ -1109,11 +1116,6 @@ a {
     .logo_1-alt {
         transform: rotate(15deg);
     }
-    
-}
-
-
-@media (max-width: 1000px) {
 
     .iker-contact-info a {
         font-size: 11px;
@@ -1123,21 +1125,21 @@ a {
     .header-left {
         width: 10%;
     }
-  
 
-	.experience {
-		display: block;
-		margin-left: 102px;
-	}
 
-	.experience-5-year-position,
-	.experience-4-year-position,
-	.experience-3-year-position,
-	.experience-2-year-position,
-	.experience-1-year-position {
-		opacity: 1;
-		transform: translateY(0);
-}
+    .experience {
+        display: block;
+        margin-left: 102px;
+    }
+
+    .experience-5-year-position,
+    .experience-4-year-position,
+    .experience-3-year-position,
+    .experience-2-year-position,
+    .experience-1-year-position {
+        opacity: 1;
+        transform: translateY(0);
+    }
 
     .make-visible {
         transform: translateY(8px);
@@ -1150,7 +1152,7 @@ a {
 
     .contact-info a:hover {
         color: #252525;
-}
+    }
 
     .learn-more a:hover {
         color: #252525;
@@ -1161,10 +1163,10 @@ a {
         border-bottom: 1px solid #252525;
     }
 
-	.experience-description {
-		max-width: 324px;
-		margin-bottom: 80px;
-	}
+    .experience-description {
+        max-width: 324px;
+        margin-bottom: 80px;
+    }
 
     .about-me-text {
         padding-top: 100px;
@@ -1183,8 +1185,7 @@ a {
     .about-me-text h4 {
         font-size: 36px;
         line-height: 42px;
-
-    } 
+    }
 
     .testimonial-3 {
         grid-column-start: 9;
@@ -1204,7 +1205,7 @@ a {
     .contact {
         padding-top: 132px;
     }
-    
+
 
     .contact-info {
         grid-column-start: 1;
@@ -1221,10 +1222,10 @@ a {
     }
 
     .people-container {
-    	margin-top: 196px;
+        margin-top: 196px;
     }
-
-}    
+    
+}
 
 @media (max-width: 768px) {
 
