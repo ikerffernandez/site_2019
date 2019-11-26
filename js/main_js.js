@@ -1,7 +1,7 @@
 ﻿//Parallax
 var image = document.getElementsByClassName('thumbnail-1');
 new simpleParallax(image, {
-    orientation: 'up'
+    orientation: 'up',
 });
 
 var image = document.getElementsByClassName('thumbnail-2');

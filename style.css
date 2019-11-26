@@ -1053,6 +1053,10 @@ a {
 
 @media (max-width: 768px) {
 
+    img {
+        transform: none !important;
+    }
+
     .iker-contact-info {
         position: relative;
         border-top: 1px #d8d8d8 solid;
