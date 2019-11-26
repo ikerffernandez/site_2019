@@ -2,11 +2,13 @@
 var image = document.getElementsByClassName('thumbnail-1');
 new simpleParallax(image, {
     orientation: 'up',
+    scale: 1.2,
 });
 
 var image = document.getElementsByClassName('thumbnail-2');
 new simpleParallax(image, {
     orientation: 'down',
+    scale: 1.2,
 });
 
 //Scroll progress

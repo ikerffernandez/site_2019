@@ -98,7 +98,7 @@ body {
     pointer-events: none;
     z-index: 10000;
     animation: circle-in 1s ease;
-    animation-delay: 2.75s;
+    animation-delay: 3s;
     animation-fill-mode: forwards;
 }
 
@@ -135,19 +135,19 @@ body {
 }
 
 .loading-column-1 {
-    animation-delay: 0.90s;
-}
-
-.loading-column-2 {
-    animation-delay: 1.05s;
-}
-
-.loading-column-3 {
     animation-delay: 1.2s;
 }
 
+.loading-column-2 {
+    animation-delay: 1.4s;
+}
+
+.loading-column-3 {
+    animation-delay: 1.6s;
+}
+
 .loading-column-4 {
-    animation-delay: 1.35s;
+    animation-delay: 1.8s;
 }
 
 .full-loading {
@@ -158,7 +158,7 @@ body {
     background-color: #eee;
     animation: fade-in 0.9s cubic-bezier(0.71, 0.04, 0, 1.03);
     animation-fill-mode: forwards;
-    animation-delay: 1.65s;
+    animation-delay: 2.1s;
 }
 
 ::-moz-selection {
@@ -406,7 +406,7 @@ a {
     grid-column-start: 3;
     grid-column-end: 13;
     animation: text-intro 1.5s cubic-bezier(0.7,-0.13, 0.01, 1.1);
-    animation-delay: 1.95s;
+    animation-delay: 2.2s;
     animation-fill-mode: forwards;
 }
 
@@ -428,7 +428,7 @@ a {
     transform: translateY(100px);
     opacity: 0;
     animation: image-intro 1.5s cubic-bezier(0.32, 0.64, 0, 1.01);
-    animation-delay: 1.8s;
+    animation-delay: 2.5s;
     animation-fill-mode: forwards;
 }
 
@@ -479,6 +479,7 @@ a {
 /*number / title / year of the project*/
 
 .project-info {
+    margin-top: 4px;
     display: flex;
     width: 100%;
     align-items: baseline;
@@ -562,7 +563,7 @@ a {
 .about-me p {
 	font-size: 11px;
 	color: #a2a2a2;
-	margin: 0;
+    margin-top: 8px;
 	font-family: 'Roboto Mono', monospace;
 
 }
@@ -617,7 +618,6 @@ a {
     background: rgba(0,0,0,0);
     padding-bottom: 4px;
     width: fit-content;
-    border-bottom: 1px solid #252525;
     transition: all 0.25s ease;
 }
 
@@ -627,6 +627,11 @@ a {
 
 .button a {
     color: #252525;
+}
+
+.learn {
+    border-bottom: 1px solid #252525;
+    padding-bottom: 2px;
 }
 
 
@@ -1053,9 +1058,18 @@ a {
 
 @media (max-width: 768px) {
 
-    img {
+/*    img {
         transform: none !important;
+    }*/
+
+
+    .about-me p {
+        margin-top: 4px;
     }
+
+    .project-info {
+        margin-top: 0;
+}
 
     .iker-contact-info {
         position: relative;
