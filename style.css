@@ -596,6 +596,8 @@ a {
     grid-column-end: 13;
     transform: translateX(24px);
     margin-right: 40px;
+    margin-left: -20px;
+
 }
 
 .learn-more {
@@ -1049,17 +1051,6 @@ a {
     
 }
 
-@media (max-width: 900px) {
-    .about-me-text {
-        transform: none !important;
-    }
-
-
-    .about-me-photo {
-        transform: none !important;
-    }
-}
-
 @media (max-width: 768px) {
 
     .iker-contact-info {
@@ -1224,17 +1215,11 @@ a {
     .about-me-text h4 {
         font-size: 24px;
         line-height: 30px;
-        margin-left: -20px;
-    }
-
-    .about-me {
-        margin-left: -20px;
     }
 
 	.about-me-photo {
 	    grid-column-start: 1;
 	    grid-column-end: 9;
-        margin-left: 20px;
 	}
 
 	.project-1 {
@@ -1278,7 +1263,7 @@ a {
 	}
 
 	.about-me-photo {
-		margin-left: 20px;
+		margin-left: 32px;
 		width: 65%;
 	}
 
