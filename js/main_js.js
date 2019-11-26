@@ -1,4 +1,15 @@
-﻿//Scroll progress
+﻿//Parallax
+var image = document.getElementsByClassName('thumbnail-1');
+new simpleParallax(image, {
+    orientation: 'up'
+});
+
+var image = document.getElementsByClassName('thumbnail-2');
+new simpleParallax(image, {
+    orientation: 'down',
+});
+
+//Scroll progress
 
 $(document).on('scroll', function () {
 
