@@ -5,6 +5,12 @@ new simpleParallax(image, {
     scale: 1.4,
 });
    
+var image = document.getElementsByClassName('thumbnail-2');
+new simpleParallax(image, {
+    orientation: 'up',
+    scale: 1.3,
+});
+
 
 //Scroll progress
 
