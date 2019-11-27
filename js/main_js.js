@@ -2,7 +2,7 @@
 var image = document.getElementsByClassName('thumbnail-1');
 new simpleParallax(image, {
     orientation: 'up',
-    scale: 1.5,
+    scale: 1.4,
 });
    
 
