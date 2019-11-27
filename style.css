@@ -1058,9 +1058,9 @@ a {
 
 @media (max-width: 768px) {
 
-/*    img {
+    .project img {
         transform: none !important;
-    }*/
+    }
 
 
     .about-me p {
