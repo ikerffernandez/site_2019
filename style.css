@@ -24,6 +24,40 @@ body {
     overflow: hidden;
 }
 
+.cookies {
+    background: #ffffff;
+    /*box-shadow: 0 12px 51px -15px rgba(0,0,0,0.19);*/
+    border: 1px solid #000000;;
+    z-index: 10000;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000;
+    animation: text-intro 1.5s cubic-bezier(0.7,-0.13, 0.01, 1.1);
+    animation-delay: 2.8s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+}
+
+.cookies p {
+    padding: 12px 24px;
+}
+
+.cookies img {
+    margin: 24px 24px;
+}
+
+.cookies-close {
+    cursor: pointer;
+    border-left: 1px solid #000;
+    height: 64px;
+}
+
 @keyframes fade-in {
     0% {
         opacity: 1;
@@ -1302,7 +1336,24 @@ a {
 		margin-left: 0px;
 	}
 
-}
+    .cookies {
+        right: 24px;
+        bottom: 24px;
+    }
+
+        .cookies p {
+            max-width: 170px;
+            padding: 0px 16px
+        }
+   
+
+    .cookies-close {
+        height: 56px;
+    }
+
+    .cookies img {
+        margin: 20px;
+    }
 
 @media (max-width: 308px) {
 
