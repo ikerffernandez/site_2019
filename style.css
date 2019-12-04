@@ -27,7 +27,7 @@ body {
 .cookies {
     background: #ffffff;
     /*box-shadow: 0 12px 51px -15px rgba(0,0,0,0.19);*/
-    border: 1px solid #000000;;
+    border: 1px solid rgba(0, 0, 0, 1);
     z-index: 10000;
     position: fixed;
     bottom: 40px;
@@ -65,7 +65,7 @@ body {
     bottom: 0;
     background-color: rgba(255, 255, 255, 0);
     color: rgba(0, 0, 0, 0);
-    border: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
 }
 
 .noopacity {
@@ -73,7 +73,7 @@ body {
 }
 
 .noborderleft {
-    border-left: rgba(0, 0, 0, 0);
+    border-left: 1px solid rgba(0, 0, 0, 0);
 }
 
 
