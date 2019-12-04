@@ -1,4 +1,17 @@
-﻿//Parallax
+﻿//No cookies
+$('.cookies-close').on('click', function () {
+    $('.cookies').addClass('nocookies')
+});
+
+$('.cookies-close').on('click', function () {
+    $('.cookies img').addClass('noopacity')
+});
+
+$('.cookies-close').on('click', function () {
+    $('.cookies-close').addClass('noborderleft')
+});
+
+//Parallax
 var image = document.getElementsByClassName('thumbnail-1');
 new simpleParallax(image, {
     orientation: 'up',
