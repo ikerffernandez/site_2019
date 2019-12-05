@@ -1,4 +1,21 @@
 ﻿var cookies = localStorage.getItem('mensaje');
+var visits = Number(localStorage.getItem('visits'));
+console.log(visits);
+
+
+//Increase number of visits
+
+localStorage.setItem('visits', Number(localStorage.getItem('visits')) + 1);
+
+
+
+$( document ).ready(function() {
+    
+    if (visits >= 10) 
+    localStorage.clear();
+
+});
+
 
 
 //Cookies hidden when mensaje is NO
@@ -10,6 +27,13 @@ $( document ).ready(function() {
         $('.cookies').addClass('cookieshidden')
 
 
+});
+
+$( document ).ready(function() {
+    
+    if (visits == 10) 
+        $('.cookies').addClass('cookieshidden')
+        var visits = 0;
 });
 
 
