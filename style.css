@@ -76,6 +76,10 @@ body {
     border-left: 1px solid rgba(0, 0, 0, 0);
 }
 
+.cookieshidden {
+    visibility: hidden;
+}
+
 
 @keyframes fade-in {
     0% {
@@ -1360,18 +1364,18 @@ a {
         bottom: 24px;
     }
 
-        .cookies p {
-            max-width: 170px;
-            padding: 0px 16px
-        }
+    .cookies p {
+        max-width: 132px;
+        padding: 0 16px;
+    }
    
 
     .cookies-close {
-        height: 56px;
+        height: 72px;
     }
 
     .cookies img {
-        margin: 20px;
+        margin: 28px;
     }
 
 @media (max-width: 308px) {

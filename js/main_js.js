@@ -1,4 +1,26 @@
-﻿//No cookies
+﻿var cookies = localStorage.getItem('mensaje');
+
+
+//Cookies hidden when mensaje is NO
+
+
+$( document ).ready(function() {
+    
+    if (cookies == 'no') 
+        $('.cookies').addClass('cookieshidden')
+
+
+});
+
+
+
+
+
+
+
+//Hide cookies when cliking on the x
+
+
 $('.cookies-close').on('click', function () {
     $('.cookies').addClass('nocookies')
 });
@@ -10,6 +32,13 @@ $('.cookies-close').on('click', function () {
 $('.cookies-close').on('click', function () {
     $('.cookies-close').addClass('noborderleft')
 });
+
+$('.cookies-close').on('click', function () {
+    localStorage.setItem('mensaje', 'no');
+    var cookies = localStorage.getItem('mensaje');
+});
+        
+
 
 //Parallax
 var image = document.getElementsByClassName('thumbnail-1');
