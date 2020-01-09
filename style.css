@@ -26,7 +26,6 @@ body {
 
 .cookies {
     background: #ffffff;
-    /*box-shadow: 0 12px 51px -15px rgba(0,0,0,0.19);*/
     border: 1px solid rgba(0, 0, 0, 1);
     z-index: 10000;
     position: fixed;
@@ -105,16 +104,6 @@ body {
     }
 }
 
-@keyframes circle-in {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
 @keyframes text-intro {
     0% {
         transform: translateY(60px);
@@ -143,22 +132,6 @@ body {
         opacity: 1;
     }
 }
-
-
-.circle {
-    opacity: 0;
-    position: absolute;
-    border: solid 1px #252525;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    pointer-events: none;
-    z-index: 10000;
-    animation: circle-in 1s ease;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
-}
-
 
 .loading {
     width: 100%;
@@ -331,6 +304,9 @@ a {
 }
 
 .header-left { 
+
+    cursor: pointer;
+
     font-size: 16px;
     font-weight: 600;
     padding-left: 24px;
@@ -863,10 +839,6 @@ a {
     color: #ffffff !important;
 }
 
-.circle-white {
-    border: solid 1px #ffffff;
-}
-
 .button-border-white {
     border-bottom: 1px solid #ffffff;
 }
@@ -1009,10 +981,6 @@ a {
 }
 
 @media (max-width: 1025px) {
-
-     .circle {
-        display: none;
-    }
 
     .logo_1-alt {
         transform: rotate(15deg);
