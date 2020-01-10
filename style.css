@@ -237,11 +237,14 @@ footer {
 
 
 h1 {
-    color: #F94A4A;
+    color: #252525;
+    text-transform: uppercase;
     font-size: 68px;
     line-height: 82px;
     letter-spacing: -2px;
     font-weight: 600;
+    transform: all;
+    transition: 0.1s ease;
 }
 
 h2 {
@@ -580,6 +583,7 @@ a {
     grid-column-end: 7;  
     transition: all 0.2s ease;
     width: fit-content;
+    cursor: pointer;
 }
 
 .company:hover {
@@ -917,9 +921,9 @@ a {
 /*Thisis for the fullscreen about me section*/
 
 .about-me-fullscreen-photo {
-    grid-column-start: 3;
+    grid-column-start: 6;
     grid-column-end: 13;
-    margin-top: 156px;
+    margin-top: 272px;
     grid-row: 1;
 }
 
@@ -929,9 +933,10 @@ a {
 
 .about-me-fullscreen-title {
     grid-column-start: 1;
-    grid-column-end: 8;
-    margin-top: 112px;
-    grid-row: 2;
+    grid-column-end: 9;
+    margin-top: 56px;
+    grid-row: 1;
+    text-transform: uppercase;
 }
 
 @media (max-width: 1233px) {

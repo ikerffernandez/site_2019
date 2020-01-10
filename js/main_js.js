@@ -195,7 +195,7 @@ $(document).ready(function () {
 //Dark theme
 
 $('.header-left').on('click', function () {
-    $('html, body, .fullscreen-about').toggleClass('dark-theme-main')
+    $('html, body, .fullscreen-about, h1').toggleClass('dark-theme-main')
 });
 
 $('.header-left').on('click', function () {
