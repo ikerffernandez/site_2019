@@ -529,9 +529,10 @@ a {
 
 .project-title {
     width: 80%;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 24px;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 .project-year {
@@ -757,24 +758,24 @@ a {
 .contact-info a {
     color: #252525;
     font-weight:600;
-    font-size: 120px;
-    line-height: 132px;
+    font-size: 92px;
+    line-height: 92px;
     letter-spacing: -3.5px;
     padding-bottom: 24px;
     transition: all 0.2s ease;
-    text-transform: none;
+    text-transform: uppercase;
     width: fit-content;
 }
 
 .contact-info p {
     color: #252525;
     font-weight:600;
-    font-size: 120px;
-    line-height: 132px;
+    font-size: 92px;
+    line-height: 92px;
     letter-spacing: -3.5px;
     padding-bottom: 8px;
     transition: all 0.2s ease;
-    text-transform: lowercase;
+    text-transform: uppercase;
     width: fit-content;
     margin: 0 32px;
 }
